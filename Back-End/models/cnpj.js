@@ -6,6 +6,7 @@ const Cnpj = (sequelize, DataTypes) => {
     sequelize,
     tableName: 'cnpjs',
   });
+
   return Cnpj;
 };
 
