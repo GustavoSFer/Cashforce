@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <NotaFiscal />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NotaFiscal from './components/NotaFiscal.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NotaFiscal,
   }
 }
 </script>
