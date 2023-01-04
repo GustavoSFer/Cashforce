@@ -1,0 +1,26 @@
+{
+  "name": "cashforce",
+  "version": "1.0.0",
+  "description": "## Tecnologias utilizadas - React - React-router-dom - Dotenv - Axios - Node.js - Express - MySQL",
+  "main": "index.js",
+  "scripts": {
+    "start:back": "cd Back-End && npm start",
+    "start:front": "cd front-end && npm start",
+    "start": "npm run start:back & npm run start:front",
+    "install:back": "cd Back-End && npm i",
+    "install:front": "cd front-end && npm i",
+    "install": "npm run install:back & npm run install:front",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustavoSFer/Cashforce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GustavoSFer/Cashforce/issues"
+  },
+  "homepage": "https://github.com/GustavoSFer/Cashforce#readme"
+}

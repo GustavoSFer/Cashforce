@@ -1,5 +1,4 @@
 <template>
-  <p>entrando aquiiii</p>
   <div v-for="(dados) in dadosNotas" :key="dados.id">
     <span>{{dados.id }}</span>
     <span>{{dados.sacado}}</span>
